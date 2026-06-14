@@ -179,16 +179,24 @@ body {
 }
 
 .nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.3rem 20px;   /* Reduced from 1rem */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-logo {
   text-decoration: none;
+}
+
+.navbar .hero-avatar {
+  width: 45px;
+  height: 45px;
+  margin: 0;
+  animation: none;
+  box-shadow: none;
 }
 
 .logo-text {
